@@ -153,12 +153,12 @@ export const layout: RunTimeLayoutConfig = ({ initialState }) => {
       ? [
           <Link to="/umi/plugin/openapi" target="_blank">
             <LinkOutlined />
-            <span>openAPI 文档</span>
+            <span>RESTful 文档</span>
           </Link>,
-          <Link to="/~docs">
+          /*<Link to="/~docs">
             <BookOutlined />
             <span>业务组件文档</span>
-          </Link>,
+          </Link>,*/
         ]
       : [],
     menuHeaderRender: undefined,

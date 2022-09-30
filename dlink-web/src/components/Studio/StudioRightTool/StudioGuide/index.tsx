@@ -33,7 +33,7 @@ const StudioGuide = (props: any) => {
   return (
     <Scrollbars style={{height: toolHeight}}>
       <Typography style={{padding:'15px'}}>
-        <Title level={5}>快捷引导</Title>
+        <Title level={5}>快捷功能</Title>
         <Paragraph>
           <ul>
             <li>
@@ -46,9 +46,9 @@ const StudioGuide = (props: any) => {
               <Link onClick={()=>{history.push('/registration/jar')}}>注册 Jar</Link>
             </li>
             <li>
-              <Link onClick={()=>{history.push('/registration/database')}}>注册数据源</Link>
+              <Link onClick={()=>{history.push('/registration/database')}}>维护数据源</Link>
             </li>
-            <li>
+            {/*<li>
               <Link onClick={()=>{history.push('/registration/document')}}>注册文档</Link>
             </li>
             <li>
@@ -59,7 +59,7 @@ const StudioGuide = (props: any) => {
             </li>
             <li>
               <Link href="https://github.com/DataLinkDC/dlink" target="_blank" >Github</Link>
-            </li>
+            </li>*/}
           </ul>
         </Paragraph>
       </Typography>

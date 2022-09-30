@@ -32,7 +32,7 @@ const Settings: LayoutSettings & {
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: 'Flink计算平台',
+  title: 'Flink开发平台',
   pwa: false,
   logo: 'dlink-logo-bar.svg',
   iconfontUrl: '',

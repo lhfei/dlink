@@ -31,7 +31,7 @@ const StudioHome = (props: any) => {
 
   return (
     <Scrollbars style={{height: toolHeight}}>
-      <Typography style={{padding:'15px'}}>
+      {/*<Typography style={{padding:'15px'}}>
         <Title level={4}>欢迎使用 DLink v{VERSION}</Title>
         <Paragraph>
           <blockquote>实时即未来，DLink 为 Apache Flink 而生，让 Flink SQL 纵享丝滑，并致力于实时计算平台建设。</blockquote>
@@ -75,7 +75,7 @@ const StudioHome = (props: any) => {
           <Text keyboard>Alt + Up/Down</Text> 上下换位 <Divider type="vertical" />
           <Text keyboard>Ctrl + Shift + [/]</Text> 折叠/展开
         </Paragraph>
-      </Typography>
+      </Typography>*/}
     </Scrollbars>
   );
 };
