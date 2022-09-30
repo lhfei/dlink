@@ -27,14 +27,14 @@ const StudioMsg = () => {
 
   return (
     <Typography>
-      <Title level={3}>欢迎大家加入 Dinky 的官方社区，共建共赢~ </Title>
+      <Title level={3}>欢迎大家加入 DLink 的官方社区，共建共赢~ </Title>
       <Paragraph>
         <ul>
           <li>
             <Link href="https://github.com/DataLinkDC/dlink" target="_blank">GitHub：https://github.com/DataLinkDC/dlink</Link>
           </li>
           <li>
-            <Link href="https://gitee.com/DataLinkDC/Dinky" target="_blank">Gitee: https://gitee.com/DataLinkDC/Dinky</Link>
+            <Link href="https://gitee.com/DataLinkDC/DLink" target="_blank">Gitee: https://gitee.com/DataLinkDC/DLink</Link>
           </li>
           <li>
             公众号：DataLink数据中台
@@ -46,10 +46,10 @@ const StudioMsg = () => {
             <Link href="https://space.bilibili.com/366484959/video" target="_blank">B站视频：是文末呀</Link>
           </li>
           <li>
-            微信用户社区群：推荐，添加微信号 wenmo_ai 邀请进群 （申请备注 Dinky + 企业名 + 职位，不写不批）
+            微信用户社区群：推荐，添加微信号 wenmo_ai 邀请进群 （申请备注 DLink + 企业名 + 职位，不写不批）
           </li>
           <li>
-            QQ用户社区群：543709668 （申请备注 Dinky + 企业名 + 职位，不写不批）
+            QQ用户社区群：543709668 （申请备注 DLink + 企业名 + 职位，不写不批）
           </li>
         </ul>
       </Paragraph>

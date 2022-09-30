@@ -141,12 +141,12 @@ export default [
     path: '/settings',
     component: './Settings',
   },
-  {
-    path: '/about',
-    name: 'about',
-    icon: 'smile',
-    component: './Welcome',
-  },
+  // {
+  //   path: '/about',
+  //   name: 'about',
+  //   icon: 'smile',
+  //   component: './Welcome',
+  // },
   {
     component: './404',
   },

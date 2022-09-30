@@ -123,13 +123,13 @@ const Login: React.FC = () => {
         <div className={styles.top}>
           <div className={styles.header}>
             <Link to="/">
-              <img alt="logo" className={styles.logo} src="/dinky.svg" />
-              <span className={styles.title}>Dinky</span>
+              <img alt="logo" className={styles.logo} src="/dlink-logo.svg" />
+              {/*<span className={styles.title}>DLink</span>*/}
             </Link>
           </div>
-          <div className={styles.desc}>
+          {/*<div className={styles.desc}>
             {intl.formatMessage({ id: 'pages.layouts.userLayout.title' })}
-          </div>
+          </div>*/}
         </div>
 
         <div className={styles.main}>

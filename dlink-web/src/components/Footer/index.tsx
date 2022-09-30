@@ -26,7 +26,7 @@ export default () => {
   const intl = useIntl();
   const defaultMessage = intl.formatMessage({
     id: 'app.copyright.produced',
-    defaultMessage: 'Dinky',
+    defaultMessage: 'DataLink',
   });
 
   return (
@@ -34,17 +34,11 @@ export default () => {
       copyright={`2022 ${defaultMessage}`}
       links={[
         {
-          key: 'Dinky',
-          title: 'Dinky',
+          key: 'DataLink',
+          title: 'DataLink',
           href: '',
           blankTarget: true,
-        },
-        {
-          key: 'github',
-          title: <GithubOutlined />,
-          href: 'https://github.com/DataLinkDC/dlink',
-          blankTarget: true,
-        },
+        }
       ]}
     />
   );

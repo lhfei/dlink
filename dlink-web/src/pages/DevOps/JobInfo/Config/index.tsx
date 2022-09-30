@@ -28,7 +28,7 @@ const Config = (props: any) => {
   const {job} = props;
   return <>
     <>
-      <Divider children={"Dinky Job Configuration"} orientation={"left"}/>
+      <Divider children={"DLink Job Configuration"} orientation={"left"}/>
       <Descriptions bordered size="small">
         <Descriptions.Item label="执行模式">{job?.history?.type ? (
           <Tag color="blue" key={job?.history?.type}>

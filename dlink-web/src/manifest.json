@@ -1,21 +1,21 @@
 {
-  "name": "Dinky",
-  "short_name": "Dinky",
+  "name": "DLink",
+  "short_name": "DLink",
   "display": "standalone",
   "start_url": "./?utm_source=homescreen",
   "theme_color": "#002140",
   "background_color": "#001529",
   "icons": [
     {
-      "src": "dinky.svg",
+      "src": "dlink-logo.svg",
       "sizes": "192x192"
     },
     {
-      "src": "dinky.svg",
+      "src": "dlink-logo.svg",
       "sizes": "128x128"
     },
     {
-      "src": "dinky.svg",
+      "src": "dlink-logo.svg",
       "sizes": "512x512"
     }
   ]

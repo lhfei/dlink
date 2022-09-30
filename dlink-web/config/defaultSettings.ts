@@ -32,9 +32,9 @@ const Settings: LayoutSettings & {
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: 'Dinky 实时计算平台',
+  title: 'Flink计算平台',
   pwa: false,
-  logo: 'dinky.svg',
+  logo: 'dlink-logo-bar.svg',
   iconfontUrl: '',
   menu: {
     locale: true

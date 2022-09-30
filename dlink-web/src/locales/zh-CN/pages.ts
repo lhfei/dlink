@@ -18,7 +18,7 @@
  */
 
 export default {
-  'pages.layouts.userLayout.title': 'Dinky 实时计算平台',
+  'pages.layouts.userLayout.title': 'DLink',
   'pages.login.accountLogin.tab': '账户密码登录',
   'pages.login.accountLogin.errorMessage': '错误的用户名和密码（admin/admin)',
   'pages.login.failure': '登录失败，请重试！',
@@ -48,7 +48,7 @@ export default {
   'pages.welcome.link': '欢迎加入',
   'pages.welcome.star': '欢迎 Star ',
   'pages.welcome.advancedLayout': 'Github',
-  'pages.welcome.alertMessage': '实时计算平台 Dinky 即将发布，目前为体验版，版本号为 ',
+  'pages.welcome.alertMessage': '实时计算平台 DLink 即将发布，目前为体验版，版本号为 ',
   'pages.admin.subPage.title': ' 这个页面只有 admin 权限才能查看',
   'pages.admin.subPage.alertMessage': 'umi ui 现已发布，欢迎使用 npm run ui 启动体验。',
   'pages.searchTable.createForm.newRule': '新建规则',

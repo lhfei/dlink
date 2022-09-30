@@ -112,31 +112,31 @@ export async function getMSSchemaInfo(params: StudioMetaStoreParam) {
 }
 
 //海豚 获取任务定义
-export async function getTaskDefinition(dinkyTaskId: string) {
+export async function getTaskDefinition(DLinkTaskId: string) {
   return request<API.Result>('/api/scheduler/task', {
     method: 'GET',
     params: {
-      dinkyTaskId,
+      DLinkTaskId,
     },
   });
 }
 
 //海豚 获取任务定义集合
-export async function getTaskMainInfos(dinkyTaskId: string) {
+export async function getTaskMainInfos(DLinkTaskId: string) {
   return request<API.Result>('/api/scheduler/upstream/tasks', {
     method: 'GET',
     params: {
-      dinkyTaskId,
+      DLinkTaskId,
     },
   });
 }
 
 //海豚 创建任务定义
-export async function createTaskDefinition(dinkyTaskId: string, upstreamCodes: string, params: object) {
+export async function createTaskDefinition(DLinkTaskId: string, upstreamCodes: string, params: object) {
   return request<API.Result>('/api/scheduler/task', {
     method: 'POST',
     params: {
-      dinkyTaskId,
+      DLinkTaskId,
       upstreamCodes
     },
     data: {

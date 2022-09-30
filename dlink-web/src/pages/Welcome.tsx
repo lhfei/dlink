@@ -40,7 +40,7 @@ export default (): React.ReactNode => {
         <Alert
           message={intl.formatMessage({
             id: 'pages.welcome.alertMessage',
-            defaultMessage: '实时计算平台 Dinky 即将发布，目前为体验版，版本号为 ',
+            defaultMessage: '实时计算平台 DLink 即将发布，目前为体验版，版本号为 ',
           }) + VERSION + '。'}
           type="success"
           showIcon
@@ -60,7 +60,7 @@ export default (): React.ReactNode => {
             <FormattedMessage id="pages.welcome.QQcode" defaultMessage="543709668"/>
           </Typography.Text>
         </Paragraph>
-        <CodePreview>微信公众号：Dinky 开源</CodePreview>
+        <CodePreview>微信公众号：DLink 开源</CodePreview>
         <Typography.Text
           strong
           style={{
@@ -563,7 +563,7 @@ export default (): React.ReactNode => {
                   <Link>新增 ChangLog 和 Table 的查询及自动停止实现</Link>
                 </li>
                 <li>
-                  <Link>修改 项目名为 Dinky 以及图标</Link>
+                  <Link>修改 项目名为 DLink 以及图标</Link>
                 </li>
                 <li>
                   <Link>优化 血缘分析图</Link>
